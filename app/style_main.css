@@ -1,0 +1,24 @@
+.container{
+    background-color: gray;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+.main{
+width:70%;
+margin: auto;
+border: 1px solid gold;
+background-color: rgb(105, 230, 105)
+}
+.dpatt{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>DESIGN PATTERNS</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- <script src="script3.js"></script> -->
+
+    <script src="observer_bundle.js"></script>
+    <div class="container">
+        <center>
+            <h3>Observer Design Pattern </h3>
+        </center>
+        <div class="top">
+
+            <ul >
+                <li>
+                    <span>Click in the follwing button you can add or remove event to following button</span>
+                    <span> it add only once even if you add more than one time</span>
+                    <span>if it has event add one line :"It is over" other wise it do nothing</span>
+                </li>                
+            </ul>
+            <div>
+                    <button id="btnAdd" style="font-size:20px"  >Add event</button>
+            </div>
+            <div>
+                    <button id="btnRemove" style="font-size:20px"  >Remove event</button>
+            </div>
+        </div>
+        <div class="history">
+            <div >Test Section</div>
+            <div>
+                    <button id="checkEvent" style="font-size:20px"  >Click to see if it has the'over' event</button>
+            </div>
+            <ul class="advert">
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "javascript_design_patterns",
+  "version": "1.0.0",
+  "description": "start testing create and test 20 design pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon "
+  },
+  "author": "abel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelgreen/javascript_design_patterns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abelgreen/javascript_design_patterns/issues"
+  },
+  "homepage": "https://github.com/abelgreen/javascript_design_patterns#readme"
+}

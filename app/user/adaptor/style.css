@@ -1,0 +1,37 @@
+.container{
+    background-color: gray;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+.top{
+width:70%;
+height:6em;
+margin: auto;
+border: 1px solid gold;
+background-color: green
+}
+.history{
+    width:70%;
+    height:21em;
+    margin: auto;
+    border: 1px solid gold;
+    background-color: rgb(245, 241, 248)
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;
+  }
+
+  .rect {
+    width: 50px;
+    height: 50px;
+    position: absolute;    
+    background: green;
+  }
